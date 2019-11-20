@@ -31,7 +31,8 @@ LOCAL_REQUIRED_MODULES := \
     AccentColorTealOverlay \
     FontGoogleSansOverlay \
     FontSlateForOnePlusOverlay \
-    AccentColorMintOverlay
+    AccentColorMintOverlay \
+    AccentColorXtendedOverlay
 
 include $(BUILD_PHONY_PACKAGE)
 include $(call first-makefiles-under,$(LOCAL_PATH))
