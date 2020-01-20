@@ -191,6 +191,9 @@ $(call inherit-product-if-exists, vendor/partner_gms/products/gms.mk)
 $(call inherit-product-if-exists, vendor/partner_gms/products/turbo.mk)
 $(call inherit-product-if-exists, vendor/gapps/config.mk)
 
+# Include Benedition theme files
+include vendor/pa/themes/backgrounds/themes.mk
+
 # Do not preoptimize prebuilts when building GApps
 DONT_DEXPREOPT_PREBUILTS := true
 
